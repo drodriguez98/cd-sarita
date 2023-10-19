@@ -25,6 +25,12 @@ header {
 
 }
 
+div {
+
+    display: block;
+    
+}
+
 h1, h2 {
 
     color: white; 
@@ -76,10 +82,17 @@ p {
 
 ul li { padding: 4px; }
 
+main {
+
+    padding-bottom: 2%;
+
+}
+
 #takeaway_container {
 
-    text-align: center;
+    display: flex;
     justify-content: center;
+
 
 }
 
@@ -88,6 +101,14 @@ ul li { padding: 4px; }
     text-decoration: none;
     font-weight: bold;
     color: rgba(245, 94, 94);
+
+}
+
+#takeaway_container a img {
+
+    justify-content: center;
+    position: relative;
+    top: 25px;
 
 }
 
