@@ -106,3 +106,10 @@ footer p {
     font-size: 15px;
 
 }
+
+@media screen and (max-width: 767px) {
+    .promocion {
+        padding: 2%;
+        margin: 2%;
+    }
+}
