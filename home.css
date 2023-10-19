@@ -1,188 +1,217 @@
 /* Estilos generales */
+
 body {
+
     font-family: Arial, sans-serif;
     background-color: bisque;
     margin: 0;
     padding: 0;
+
   }
   
   header {
+
     background-image: url('comida.jpg');
-    padding: 5%;
+    padding: 4%;
+
   }
   
   #header-div {
+
     background-color: rgba(245, 94, 94, 0.7);
+    display: block;
     margin: 0 auto;
+    padding: 20px;
     width: fit-content;
     min-width: 400px;
-    padding: 20px;
     border-radius: 2px;
+
   }
-  
-  div {
-    display: block;
-  }
-  
+    
   h1, h2 {
+
     color: white;
-    padding: 4%;
+    padding: 3%;
     margin: 0 auto;
     text-align: center;
+
   }
   
   h1 {
-    font-size: 20px;
+
+    font-size: 18px;
     text-transform: uppercase;
+
   }
   
-  h2 {
-    font-size: 18px;
-  }
+  h2 { font-size: 16px; }
   
   nav {
+
     background-color: rgba(245, 94, 94);
     padding: 15px;
+
   }
   
   #description {
-    margin-left: 3%;
-    margin-top: 2%;
+
+    margin-top: 1.5%;
+    margin: auto 3%;
+    padding: 5px;
+
   }
   
   h3 {
+
     color: rgba(245, 94, 94);
     text-align: center;
+    font-size: 18px;
+    
   }
-  
+
   p {
-    font-size: 16px;
+
+    font-size: 14px;
     line-height: 1.5;
+
   }
   
   ul li {
+
     list-style: none;
     background: url('foodicon.png') no-repeat left center;
-    padding: 1.5%;
+    padding: 1%;
     padding-left: 4%;
+    
   }
   
   span {
+
     color: rgba(245, 94, 94);
     font-weight: bold;
+
   }
-  
-  main {
-    padding-bottom: 2%;
-  }
-  
+
   #takeaway_container {
+
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
+
   }
   
   #takeaway_container a {
+
     text-decoration: none;
     font-weight: bold;
     color: rgba(245, 94, 94);
+
   }
   
   #takeaway_container a img {
+
     position: relative;
-    top: 25px;
-    margin-right: 10px;
+    top: 35%;
+    margin-right: 15px;
+
   }
   
   footer p {
+
     background-color: rgba(245, 94, 94);
     color: white;
-    padding: 35px;
+    padding: 2%;
     text-align: center;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 16px;
+
   }
   
   /* Estilos para resoluciones entre 768px y 1023px */
+
   @media screen and (max-width: 1023px) and (min-width: 768px) {
 
-    header {
-      padding: 3%;
-    }
+    header { padding: 5%; }
+    
+    h1 { font-size: 20px; }
+    
+    h2 { font-size: 18px; }
+
+    h3 { font-size: 20px; }
  
-    p {
-      font-size: 15px;
-      line-height: 1.4;
-    }
+    p { font-size: 16px; }
   
     ul li {
-      padding: 10px;
-      padding-left: 40px;
+
+      padding: 2.3%;
+      padding-left: 6.5%;
+
     }
-  
-    main {
-      padding-bottom: 5%;
-    }
-  
-    #takeaway_container a {
-      font-weight: normal;
+
+    #takeaway_container {
+
+      margin-bottom: 4%;
+
     }
   
     #takeaway_container a img {
-      top: 0;
-      margin-right: 5px;
+
+      top: 35%;
+
     }
   
     footer p {
+
       padding: 15px;
-      font-size: 14px;
+      font-size: 16px;
+
     }
     
   }
   
   /* Estilos para resoluciones menores o iguales a 767px */
+
   @media screen and (max-width: 767px) {
 
     header {
+
       background-size: cover;
-      padding: 0;
+      padding: 6%;
+
     }
+
+    h1 { font-size: 22px; }
+    
+    h2 { font-size: 10px; }
+
+    h3 { font-size: 22px; }
   
-    nav {
-      padding: 10px;
-    }
-  
-    #description {
-      margin-left: 5%;
-    }
-  
-    h3 {
-      font-size: 18px;
-    }
-  
-    p {
-      font-size: 14px;
-      line-height: 1.4;
-    }
+    p { font-size: 18px; }
   
     ul li {
-      padding: 10px;
-      padding-left: 40px;
+
+      padding: 3%;
+      padding-left: 12%;
+
     }
   
-    span { font-weight: bold; }
-  
-    main { padding-bottom: 5%; }
-  
-    #takeaway_container a { font-weight: normal; }
+    #takeaway_container {
+
+      margin-bottom: 10%;
+
+    }
   
     #takeaway_container a img {
-      top: 0;
-      margin-right: 5px;
+
+      top: 40%;
+
     }
   
     footer p {
+
       padding: 15px;
-      font-size: 14px
+      font-size: 16px;
+
     }
 
   }  
