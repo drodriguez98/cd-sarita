@@ -16,7 +16,7 @@ header {
 
 #header-div {
 
-    background-color: rgba(245, 94, 94, 0.6);
+    background-color: rgba(245, 94, 94, 0.7);
     margin: 0 auto;
     width: fit-content;
     padding: 20px;
@@ -38,7 +38,17 @@ h1, h2 {
 
 }
 
-h2 { font-size: large; }
+h1 {
+
+    font-size: 25px; 
+    
+}
+
+h2 {
+
+    font-size: 18px; 
+    
+}
 
 nav {
 
@@ -72,7 +82,7 @@ ul li {
     
     list-style: none; 
     background: url('foodicon.png') no-repeat left center;
-    padding: 1%;
+    padding: 1.5%;
     padding-left: 3%;
 
 }
